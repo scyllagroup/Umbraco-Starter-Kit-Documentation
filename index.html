@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>Umbraco Starter Kit - The Scylla Group</title>
+  <link rel="stylesheet" href="https://unpkg.com/docute@3/dist/docute.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="https://unpkg.com/docute-iframe"></script>
+  <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
+  <script>
+    docute.init({
+      plugins: [
+        docuteIframe() // https://github.com/egoist/docute-iframe
+      ],
+      nav: [{
+          title: "Home",
+          path: "/"
+        },
+        {
+          title: "Training",
+          type: "dropdown",
+          items: [{
+              type: "label",
+              title: "Developer"
+            },
+            {
+              title: "Modal Binding",
+              path: "/training/developer/model-binding"
+            },
+            {
+              title: "Working with Images",
+              path: "/training/developer/working-with-images"
+            },
+            {
+              title: "Surface and API Controllers",
+              path: "/training/developer/surface-and-api-controllers"
+            },
+            {
+              title: "HTML Helpers",
+              path: "/training/developer/html-helpers"
+            },
+            {
+              type: "sep"
+            },
+            {
+              type: "label",
+              title: "Content Author"
+            },
+            {
+              title: "Online Reputation Management",
+              path: "/training/content-author/online-reputation-management"
+            },
+            {
+              title: "Building Pages with Grid Editors",
+              path: "/training/content-author/building-pages-with-grid-editors"
+            },
+            {
+              title: "User and Member Management",
+              path: "/training/content-author/user-and-member-management"
+            },
+            {
+              title: "The Media Center",
+              path: "/training/content-author/the-media-center"
+            },
+          ]
+        },
+        {
+          title: "Packages",
+          type: "dropdown",
+          items: [{
+            title: "UmbracoFlare",
+            path: "/packages/umbracoflare"
+          }, ]
+        }
+      ]
+    })
+  </script>
+</body>
+
+</html>
