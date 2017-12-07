@@ -25,7 +25,7 @@ This work is licensed as follows: Attribution-ShareAlike 4.0 International. The 
 
 [Read the entirity of the license](/license).
 
-#### Resources
+### Resources
 
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - Docute - [Website](https://docute.js.org/#/home) [Helpers](https://docute.js.org/#/home?id=doc-helpers)
